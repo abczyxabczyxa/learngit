@@ -1,0 +1,20 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+F:/exp10/mycpu_env/myCPU/ExE_reg.v,1745117653,verilog,,F:/exp10/mycpu_env/myCPU/ID_REg.v,,ExE_reg,,,,,,,,
+F:/exp10/mycpu_env/myCPU/ID_REg.v,1744204968,verilog,,F:/exp10/mycpu_env/myCPU/ID_stage.v,,ID_Reg,,,,,,,,
+F:/exp10/mycpu_env/myCPU/ID_stage.v,1745120571,verilog,,F:/exp10/mycpu_env/myCPU/Mem_reg.v,,ID_stage,,,,,,,,
+F:/exp10/mycpu_env/myCPU/Mem_reg.v,1745117510,verilog,,F:/exp10/mycpu_env/myCPU/Wb_reg.v,,Mem_reg,,,,,,,,
+F:/exp10/mycpu_env/myCPU/Wb_reg.v,1744623950,verilog,,F:/exp10/mycpu_env/myCPU/alu.v,,Wb_reg,,,,,,,,
+F:/exp10/mycpu_env/myCPU/alu.v,1745116259,verilog,,F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v,,ALU,,,,,,,,
+F:/exp10/mycpu_env/myCPU/mycpu_top.v,1745119204,verilog,,F:/exp10/mycpu_env/myCPU/pc_reg.v,,mycpu_top,,,,,,,,
+F:/exp10/mycpu_env/myCPU/pc_reg.v,1745118552,verilog,,F:/exp10/mycpu_env/myCPU/regfile.v,,PC_Reg,,,,,,,,
+F:/exp10/mycpu_env/myCPU/regfile.v,1743328442,verilog,,F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v,,regfile,,,,,,,,
+F:/exp10/mycpu_env/myCPU/tools.v,1743328442,verilog,,F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v,,decoder_2_4;decoder_4_16;decoder_5_32;decoder_6_64,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v,1691029418,verilog,,F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v,,bridge_1x2,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v,1691029418,verilog,,F:/exp10/mycpu_env/myCPU/mycpu_top.v,,confreg,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v,1691029418,verilog,,F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v,,soc_lite_top,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v,1691029418,verilog,,,,tb_top,,,,,,,,
+F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v,1691029418,verilog,,F:/exp10/mycpu_env/myCPU/tools.v,,data_ram;inst_ram;sync_ram,,,,,,,,

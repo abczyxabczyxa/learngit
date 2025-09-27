@@ -1,0 +1,513 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 21 19:22:55 2025
+# Process ID: 48512
+# Current directory: F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48416 F:\exp10\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+# Running On: LAPTOP-J6CP12E1, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_pll' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_pll' (customized with software release 2019.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'data_ram' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'data_ram' (customized with software release 2019.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'inst_ram' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'inst_ram' (customized with software release 2019.2) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1541.590 ; gain = 359.613
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.xci
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/data_ram.xci
+F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xci
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.coe'
+WARNING: [SIM-utils-65] Failed to find the IP component XML file for 'clk_pll' from IP_OUTPUT_DIR property! (file does not exist:'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.xml')
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.xml'
+WARNING: [SIM-utils-65] Failed to find the IP component XML file for 'data_ram' from IP_OUTPUT_DIR property! (file does not exist:'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/data_ram.xml')
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/data_ram.xml'
+WARNING: [SIM-utils-65] Failed to find the IP component XML file for 'inst_ram' from IP_OUTPUT_DIR property! (file does not exist:'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xml')
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'f:/exp10/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/ExE_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExE_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/ID_REg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/ID_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/Mem_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/Wb_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wb_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+WARNING: [VRFC 10-2938] 'rf_rdata1' is already implicitly declared on line 115 [F:/exp10/mycpu_env/myCPU/mycpu_top.v:385]
+WARNING: [VRFC 10-2938] 'rf_rdata2' is already implicitly declared on line 116 [F:/exp10/mycpu_env/myCPU/mycpu_top.v:386]
+WARNING: [VRFC 10-3380] identifier 'id_br_taken' is used before its declaration [F:/exp10/mycpu_env/myCPU/mycpu_top.v:70]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_ram
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+WARNING: [VRFC 10-2096] empty statement in sequential block [F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v:237]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3129] assignment to input 'dina' [F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v:57]
+WARNING: [VRFC 10-3129] assignment to input 'dina' [F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v:84]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" Line 67. Module soc_lite_top(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/mycpu_top.v" Line 1. Module mycpu_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/pc_reg.v" Line 1. Module PC_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ID_REg.v" Line 1. Module ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ID_stage.v" Line 1. Module ID_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 40. Module decoder_6_64 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 14. Module decoder_4_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 1. Module decoder_2_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 27. Module decoder_5_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ExE_reg.v" Line 1. Module ExE_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/alu.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/Mem_reg.v" Line 1. Module Mem_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/Wb_reg.v" Line 1. Module Wb_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/regfile.v" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 39. Module inst_ram_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 1. Module sync_ram(ADDR_WIDTH=18,DEPTH=262144) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" Line 50. Module bridge_1x2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 66. Module data_ram_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 1. Module sync_ram(DEPTH=65536) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" Line 74. Module confreg(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" Line 67. Module soc_lite_top(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/mycpu_top.v" Line 1. Module mycpu_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/pc_reg.v" Line 1. Module PC_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ID_REg.v" Line 1. Module ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ID_stage.v" Line 1. Module ID_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 40. Module decoder_6_64 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 14. Module decoder_4_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 1. Module decoder_2_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/tools.v" Line 27. Module decoder_5_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/ExE_reg.v" Line 1. Module ExE_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/alu.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/Mem_reg.v" Line 1. Module Mem_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/Wb_reg.v" Line 1. Module Wb_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/myCPU/regfile.v" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 39. Module inst_ram_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 1. Module sync_ram(ADDR_WIDTH=18,DEPTH=262144) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" Line 50. Module bridge_1x2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 66. Module data_ram_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/sync_ram.v" Line 1. Module sync_ram(DEPTH=65536) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/exp10/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" Line 74. Module confreg(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_Reg
+Compiling module xil_defaultlib.ID_Reg
+Compiling module xil_defaultlib.decoder_6_64
+Compiling module xil_defaultlib.decoder_4_16
+Compiling module xil_defaultlib.decoder_2_4
+Compiling module xil_defaultlib.decoder_5_32
+Compiling module xil_defaultlib.ID_stage
+Compiling module xil_defaultlib.ExE_reg
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mem_reg
+Compiling module xil_defaultlib.Wb_reg
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mycpu_top
+Compiling module xil_defaultlib.sync_ram(ADDR_WIDTH=18,DEPTH=262...
+Compiling module xil_defaultlib.inst_ram_default
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module xil_defaultlib.sync_ram(DEPTH=65536)
+Compiling module xil_defaultlib.data_ram_default
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1561.301 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/exp10/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1602.781 ; gain = 41.480
+run all
+==============================================================
+Test begin!
+----[  20395 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x00000000
+        [  32000 ns] Test is running, debug_wb_pc = 0x00000000
+        [  42000 ns] Test is running, debug_wb_pc = 0x00000000
+        [  52000 ns] Test is running, debug_wb_pc = 0x00000000
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c04cb90
+        [  72000 ns] Test is running, debug_wb_pc = 0x00000000
+----[  81775 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c0101f0
+        [  92000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 102000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 112000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c056ea8
+----[ 127805 ns] Number 8'd03 Functional Test Point PASS!!!
+        [ 132000 ns] Test is running, debug_wb_pc = 0x1c057498
+        [ 142000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 152000 ns] Test is running, debug_wb_pc = 0x1c0580f4
+        [ 162000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 172000 ns] Test is running, debug_wb_pc = 0x1c058d5c
+        [ 182000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 189155 ns] Number 8'd04 Functional Test Point PASS!!!
+        [ 192000 ns] Test is running, debug_wb_pc = 0x1c059980
+        [ 202000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 212000 ns] Test is running, debug_wb_pc = 0x1c05a5f4
+        [ 222000 ns] Test is running, debug_wb_pc = 0x1c05ac34
+        [ 232000 ns] Test is running, debug_wb_pc = 0x1c05b274
+        [ 242000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 250175 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 252000 ns] Test is running, debug_wb_pc = 0x1c05be98
+        [ 262000 ns] Test is running, debug_wb_pc = 0x1c05c4d8
+        [ 272000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 282000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 292000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 302000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 311255 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 312000 ns] Test is running, debug_wb_pc = 0x1c05e3b0
+        [ 322000 ns] Test is running, debug_wb_pc = 0x1c05e9e4
+        [ 332000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 342000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 352000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 362000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 372000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 372395 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 382000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 392000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 402000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 412000 ns] Test is running, debug_wb_pc = 0x1c062174
+        [ 422000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 432000 ns] Test is running, debug_wb_pc = 0x1c062ddc
+----[ 433895 ns] Number 8'd08 Functional Test Point PASS!!!
+        [ 442000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 452000 ns] Test is running, debug_wb_pc = 0x1c063a00
+        [ 462000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 472000 ns] Test is running, debug_wb_pc = 0x1c064668
+        [ 482000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 492000 ns] Test is running, debug_wb_pc = 0x1c0652d0
+----[ 495185 ns] Number 8'd09 Functional Test Point PASS!!!
+        [ 502000 ns] Test is running, debug_wb_pc = 0x1c010ac4
+        [ 512000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 522000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 532000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 542000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 552000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 556295 ns] Number 8'd10 Functional Test Point PASS!!!
+        [ 562000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 572000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 582000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 592000 ns] Test is running, debug_wb_pc = 0x1c014290
+        [ 602000 ns] Test is running, debug_wb_pc = 0x1c0148d0
+----[ 602205 ns] Number 8'd11 Functional Test Point PASS!!!
+        [ 612000 ns] Test is running, debug_wb_pc = 0x1c014ec0
+        [ 622000 ns] Test is running, debug_wb_pc = 0x1c015500
+        [ 632000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 642000 ns] Test is running, debug_wb_pc = 0x1c016168
+----[ 648205 ns] Number 8'd12 Functional Test Point PASS!!!
+        [ 652000 ns] Test is running, debug_wb_pc = 0x1c016758
+        [ 662000 ns] Test is running, debug_wb_pc = 0x1c016d98
+        [ 672000 ns] Test is running, debug_wb_pc = 0x1c0173d8
+        [ 682000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 692000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 694145 ns] Number 8'd13 Functional Test Point PASS!!!
+        [ 702000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 712000 ns] Test is running, debug_wb_pc = 0x1c019140
+----[ 712545 ns] Number 8'd14 Functional Test Point PASS!!!
+        [ 722000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 732000 ns] Test is running, debug_wb_pc = 0x00000000
+----[ 732065 ns] Number 8'd15 Functional Test Point PASS!!!
+        [ 742000 ns] Test is running, debug_wb_pc = 0x1c01ab64
+        [ 752000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 762000 ns] Test is running, debug_wb_pc = 0x1c01bcfc
+        [ 772000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 782000 ns] Test is running, debug_wb_pc = 0x1c01cdc8
+        [ 792000 ns] Test is running, debug_wb_pc = 0x1c01d4e0
+        [ 802000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 812000 ns] Test is running, debug_wb_pc = 0x1c01e308
+        [ 822000 ns] Test is running, debug_wb_pc = 0x1c01e9f8
+        [ 832000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 842000 ns] Test is running, debug_wb_pc = 0x1c01f9d0
+        [ 852000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 862000 ns] Test is running, debug_wb_pc = 0x1c020b7c
+        [ 872000 ns] Test is running, debug_wb_pc = 0x1c021458
+----[ 877205 ns] Number 8'd16 Functional Test Point PASS!!!
+        [ 882000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 892000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 902000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 912000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 922000 ns] Test is running, debug_wb_pc = 0x1c0237f4
+        [ 932000 ns] Test is running, debug_wb_pc = 0x1c023efc
+        [ 942000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 952000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 962000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 972000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 982000 ns] Test is running, debug_wb_pc = 0x1c026a10
+        [ 992000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1002000 ns] Test is running, debug_wb_pc = 0x1c02782c
+        [1012000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1022000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1032000 ns] Test is running, debug_wb_pc = 0x1c028d60
+----[1033545 ns] Number 8'd17 Functional Test Point PASS!!!
+        [1042000 ns] Test is running, debug_wb_pc = 0x1c0294d4
+        [1052000 ns] Test is running, debug_wb_pc = 0x1c029cac
+        [1062000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1072000 ns] Test is running, debug_wb_pc = 0x1c02ac80
+        [1082000 ns] Test is running, debug_wb_pc = 0x1c02b45c
+        [1092000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1102000 ns] Test is running, debug_wb_pc = 0x1c02c414
+        [1112000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1122000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1132000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1142000 ns] Test is running, debug_wb_pc = 0x1c02e39c
+----[1145335 ns] Number 8'd18 Functional Test Point PASS!!!
+        [1152000 ns] Test is running, debug_wb_pc = 0x1c02eb48
+        [1162000 ns] Test is running, debug_wb_pc = 0x1c02f370
+        [1172000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1182000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1192000 ns] Test is running, debug_wb_pc = 0x1c030c28
+        [1202000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1212000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1222000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1232000 ns] Test is running, debug_wb_pc = 0x1c032d18
+        [1242000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1244755 ns] Number 8'd19 Functional Test Point PASS!!!
+        [1252000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1262000 ns] Test is running, debug_wb_pc = 0x1c0353e0
+        [1272000 ns] Test is running, debug_wb_pc = 0x1c035ba8
+        [1282000 ns] Test is running, debug_wb_pc = 0x1c03636c
+        [1292000 ns] Test is running, debug_wb_pc = 0x1c036b24
+        [1302000 ns] Test is running, debug_wb_pc = 0x1c0372ec
+        [1312000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1322000 ns] Test is running, debug_wb_pc = 0x1c03828c
+----[1330035 ns] Number 8'd20 Functional Test Point PASS!!!
+        [1332000 ns] Test is running, debug_wb_pc = 0x1c0389ec
+        [1342000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1352000 ns] Test is running, debug_wb_pc = 0x1c039b58
+        [1362000 ns] Test is running, debug_wb_pc = 0x1c03a40c
+        [1372000 ns] Test is running, debug_wb_pc = 0x1c03acd4
+----[1379295 ns] Number 8'd21 Functional Test Point PASS!!!
+        [1382000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1392000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1402000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1412000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1422000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1425145 ns] Number 8'd22 Functional Test Point PASS!!!
+        [1432000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1442000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1452000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1462000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1470995 ns] Number 8'd23 Functional Test Point PASS!!!
+        [1472000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1482000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1492000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1502000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1512000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1516845 ns] Number 8'd24 Functional Test Point PASS!!!
+        [1522000 ns] Test is running, debug_wb_pc = 0x1c040b08
+        [1532000 ns] Test is running, debug_wb_pc = 0x1c04113c
+        [1542000 ns] Test is running, debug_wb_pc = 0x1c04177c
+        [1552000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1562000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1562875 ns] Number 8'd25 Functional Test Point PASS!!!
+        [1572000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1582000 ns] Test is running, debug_wb_pc = 0x1c043014
+        [1592000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1602000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1608875 ns] Number 8'd26 Functional Test Point PASS!!!
+        [1612000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1622000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1632000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1642000 ns] Test is running, debug_wb_pc = 0x1c045538
+        [1652000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1662000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1669895 ns] Number 8'd27 Functional Test Point PASS!!!
+        [1672000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1682000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1692000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1702000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1712000 ns] Test is running, debug_wb_pc = 0x1c048090
+        [1722000 ns] Test is running, debug_wb_pc = 0x1c0486d0
+----[1730855 ns] Number 8'd28 Functional Test Point PASS!!!
+        [1732000 ns] Test is running, debug_wb_pc = 0x1c048cc0
+        [1742000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1752000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1762000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1772000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1782000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1791935 ns] Number 8'd29 Functional Test Point PASS!!!
+        [1792000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1802000 ns] Test is running, debug_wb_pc = 0x1c04dd54
+        [1812000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1815715 ns] Number 8'd30 Functional Test Point PASS!!!
+        [1822000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1832000 ns] Test is running, debug_wb_pc = 0x1c04ee50
+        [1842000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1849935 ns] Number 8'd31 Functional Test Point PASS!!!
+        [1852000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1862000 ns] Test is running, debug_wb_pc = 0x1c04fefc
+        [1872000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1882000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1884955 ns] Number 8'd32 Functional Test Point PASS!!!
+        [1892000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1902000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1912000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1920595 ns] Number 8'd33 Functional Test Point PASS!!!
+        [1922000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1932000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1942000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1952000 ns] Test is running, debug_wb_pc = 0x00000000
+----[1953185 ns] Number 8'd34 Functional Test Point PASS!!!
+        [1962000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1972000 ns] Test is running, debug_wb_pc = 0x1c053a68
+----[1981845 ns] Number 8'd35 Functional Test Point PASS!!!
+        [1982000 ns] Test is running, debug_wb_pc = 0x00000000
+        [1992000 ns] Test is running, debug_wb_pc = 0x1c054504
+        [2002000 ns] Test is running, debug_wb_pc = 0x1c054a6c
+        [2012000 ns] Test is running, debug_wb_pc = 0x1c054fe0
+        [2022000 ns] Test is running, debug_wb_pc = 0x00000000
+----[2023045 ns] Number 8'd36 Functional Test Point PASS!!!
+==============================================================
+Test end!
+----PASS!!!
+$finish called at time : 2023965 ns : File "F:/exp10/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" Line 270
+run: Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1633.492 ; gain = 30.711
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 25048 KB (Peak: 25048 KB), Simulation CPU Usage: 36233 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 21 19:32:31 2025...

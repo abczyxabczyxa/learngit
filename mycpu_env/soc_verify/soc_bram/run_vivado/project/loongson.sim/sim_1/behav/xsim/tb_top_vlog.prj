@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../../myCPU/ExE_reg.v" \
+"../../../../../../../../myCPU/ID_REg.v" \
+"../../../../../../../../myCPU/ID_stage.v" \
+"../../../../../../../../myCPU/Mem_reg.v" \
+"../../../../../../../../myCPU/Wb_reg.v" \
+"../../../../../../../../myCPU/alu.v" \
+"../../../../../../rtl/BRIDGE/bridge_1x2.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../../myCPU/mycpu_top.v" \
+"../../../../../../../../myCPU/pc_reg.v" \
+"../../../../../../../../myCPU/regfile.v" \
+"../../../../../../rtl/soc_lite_top.v" \
+"../../../../../../testbench/sync_ram.v" \
+"../../../../../../../../myCPU/tools.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
