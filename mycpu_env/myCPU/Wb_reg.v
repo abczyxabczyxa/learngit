@@ -1,6 +1,7 @@
 module Wb_reg (
     input wire clk,
     input wire rst,
+input wire
     input mem_ready_go,
 
     input wire [31:0] mem_alu_result,
